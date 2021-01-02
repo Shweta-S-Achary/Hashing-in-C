@@ -6,17 +6,17 @@ h'(k) = sum of ASCII values of all characters in string mod N; where N is number
 
 Tested on gcc version 4.4.3 (GCC)
 
-# Commands to execute:
+## Commands to execute:
 
-## Compiling the  C code
+### Compiling the  C code
 
 gcc -o hashing Hashing.c
 
-## Executing the C code
+### Executing the C code
 
 ./hashing file.txt
 
-# Input
+## Input
 
 Sample input file is provided named as file.txt
 
