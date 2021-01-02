@@ -2,6 +2,8 @@
 
 Collision resolution is done by quadratic probing using the hash function: h(k,i) = (h'(k) + i^2) * mod N
 
+h'(k) = sum of ASCII values of all characters in string mod N; where N is number of slots in the hash table
+
 Tested on gcc version 4.4.3 (GCC)
 
 Commands to execute:
